@@ -71,7 +71,7 @@ public class casino {
                          
                          if (bet == hasil) {
                              int menang = coken * 2;
-                             System.out.println("WOW kamu menang! angka nya adalah " + hasil + ". token mu di kali dua! jadi token mu sekarang ada + menang");
+                             System.out.println("WOW kamu menang! angka nya adalah " + hasil + ". token mu di kali dua! jadi token mu sekarang ada " + menang);
                              System.out.println("Sayang sekali, tapi kamu hanya bisa bertaruh sekali. Selamat Tinggal!");
                          } else {
                              int kalah = coken - taruhan;
