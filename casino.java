@@ -40,6 +40,9 @@ public class casino {
             beliToken = scan.nextLine();
             
             switch (beliToken) {
+                default :
+                    System.out.println("Apa maksud");
+                    break;
                 case "TIDAK" :
                     System.out.println("Oke, Selamat Tinggal!");
                 case "IYA" :
